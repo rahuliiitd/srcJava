@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+A suitable message is diplayed. It needs to be done so that git knows that the current folder is a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a kind a buffer whose snapshot is committed t the time of commit. It lets us chose which files to be a part of the commit.
