@@ -3,3 +3,13 @@ A suitable message is diplayed. It needs to be done so that git knows that the c
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a kind a buffer whose snapshot is committed t the time of commit. It lets us chose which files to be a part of the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can use git diff --staged to take a look at all the changes since the last commit. From the changes made, we can decide whether there is one or more than one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In situations when I am trying to make different versions from the current version.
+Branches help in organizing these versions.
+
+How do the diagrams help you visualize the branch structure?
+They tell you the common commits and the differences thereafter.
